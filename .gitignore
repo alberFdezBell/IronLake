@@ -1,0 +1,13 @@
+# Ignorar mapas compilados (estos se comparten por Discord o se prueban localmente)
+*.bsp
+*.log
+*.prt
+*.lin
+
+# Ignorar archivos de guardado automático y copias de seguridad de Hammer
+*.vmx
+*.bck
+*.vbm
+
+# Archivos de configuración local de Hammer (varían según el usuario)
+*.crd
