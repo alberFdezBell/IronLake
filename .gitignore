@@ -1,5 +1,5 @@
 # Ignorar mapas compilados (estos se comparten por Discord o se prueban localmente)
-*.bsp
+#*.bsp
 *.log
 *.prt
 *.lin
