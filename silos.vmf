@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8871"
-	"mapversion" "2"
+	"mapversion" "5"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,7 +14,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "1"
+	"nGridSpacing" "2"
 }
 palette_plus
 {
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "2"
+	"mapversion" "5"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -56647,6 +56647,124 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
+	solid
+	{
+		"id" "41825"
+		side
+		{
+			"id" "44917"
+			"plane" "(70 14 66) (80 14 66) (80 -14 66)"
+			vertices_plus
+			{
+				"v" "70 14 66"
+				"v" "80 14 66"
+				"v" "80 -14 66"
+				"v" "70 -14 66"
+			}
+			"material" "TOOLS/TOOLSINVISIBLELADDER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "44918"
+			"plane" "(70 -14 -880) (80 -14 -880) (80 14 -880)"
+			vertices_plus
+			{
+				"v" "70 -14 -880"
+				"v" "80 -14 -880"
+				"v" "80 14 -880"
+				"v" "70 14 -880"
+			}
+			"material" "TOOLS/TOOLSINVISIBLELADDER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "44919"
+			"plane" "(70 14 66) (70 -14 66) (70 -14 -880)"
+			vertices_plus
+			{
+				"v" "70 14 66"
+				"v" "70 -14 66"
+				"v" "70 -14 -880"
+				"v" "70 14 -880"
+			}
+			"material" "TOOLS/TOOLSINVISIBLELADDER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "44920"
+			"plane" "(80 14 -880) (80 -14 -880) (80 -14 66)"
+			vertices_plus
+			{
+				"v" "80 14 -880"
+				"v" "80 -14 -880"
+				"v" "80 -14 66"
+				"v" "80 14 66"
+			}
+			"material" "TOOLS/TOOLSINVISIBLELADDER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "44921"
+			"plane" "(80 14 66) (70 14 66) (70 14 -880)"
+			vertices_plus
+			{
+				"v" "80 14 66"
+				"v" "70 14 66"
+				"v" "70 14 -880"
+				"v" "80 14 -880"
+			}
+			"material" "TOOLS/TOOLSINVISIBLELADDER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "44922"
+			"plane" "(80 -14 -880) (70 -14 -880) (70 -14 66)"
+			vertices_plus
+			{
+				"v" "80 -14 -880"
+				"v" "70 -14 -880"
+				"v" "70 -14 66"
+				"v" "80 -14 66"
+			}
+			"material" "TOOLS/TOOLSINVISIBLELADDER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 200 201"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	group
 	{
 		"id" "530"
@@ -61594,6 +61712,38 @@ entity
 		"logicalpos" "[13000 -7768]"
 	}
 }
+entity
+{
+	"id" "41510"
+	"classname" "prop_static"
+	"angles" "0 180 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_c17/metalladder003.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"origin" "81 0 -1099"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
 cameras
 {
 	"activecamera" "-1"
@@ -61601,4 +61751,14 @@ cameras
 cordons
 {
 	"active" "0"
+	cordon
+	{
+		"name" "cordon"
+		"active" "1"
+		box
+		{
+			"mins" "(-768 -584 -1144)"
+			"maxs" "(408 584 656)"
+		}
+	}
 }
